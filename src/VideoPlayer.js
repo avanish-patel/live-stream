@@ -51,6 +51,9 @@ const VideoPlayer = () => {
           ></iframe>
         </div>
       )}
+        <footer className="mt-8 text-center text-sm">
+        Made by <a className='text-blue-500' href='https://github.com/avanish-patel' target='__blank'>Avanish Patel</a>
+      </footer>
     </div>
   );
 };
