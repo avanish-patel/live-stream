@@ -25,7 +25,7 @@ const VideoPlayer = () => {
       <h1 className="text-3xl font-bold mb-4">Live Sports Streaming</h1>
       <div className="mb-4">
         <label htmlFor="channel" className="block text-gray-700 text-sm font-bold mb-2">
-          Select Channel:
+          Select Channel: (click on video multiple times to start playing!)
         </label>
         <select
           id="channel"
@@ -59,7 +59,7 @@ const VideoPlayer = () => {
         </div>
       )}
         <footer className="mt-8 text-center text-sm">
-        Made by <a className='text-blue-500' href='https://github.com/avanish-patel' target='__blank'>Avanish Patel</a>
+        Made by <a className='text-blue-500'>Avanish Patel</a>
       </footer>
     </div>
   );
