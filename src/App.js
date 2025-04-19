@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoPlayer from './VideoPlayer';
+import VideoPlayer from "./VideoPlayer.js";
 import './index.css'; // Import the CSS to apply Tailwind styles
 
 function App() {
