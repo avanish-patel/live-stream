@@ -1,13 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const VideoPlayer = () => {
   const [selectedChannel, setSelectedChannel] = useState('');
+  const [isAndroid, setIsAndroid] = useState(false);
+
   const videoUrls = {
     'Star Sports Hindi': '//stream.crichd.sc/update/star1hi.php',
     'Sky Sports': '//stream.crichd.sc/update/skys2.php',
     'Star Sports': '//stream.crichd.sc/update/star.php',
     'Willow Cricket': '//stream.crichd.sc/update/willowcricket.php',
   };
+
+  useEffect(() => {
+    const userAgent = navigator.userAgent.toLowerCase();
+    setIsAndroid(/android/.test(userAgent));
+  }, []);
 
   const handleChannelChange = (event) => {
     setSelectedChannel(event.target.value);
@@ -47,7 +54,7 @@ const VideoPlayer = () => {
             frameBorder="0"
             allowFullScreen
             allow="encrypted-media"
-            sandbox="allow-scripts allow-same-origin"
+            {...(!isAndroid ? { sandbox: 'allow-scripts allow-same-origin' } : {})}
           ></iframe>
         </div>
       )}
