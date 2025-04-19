@@ -47,6 +47,7 @@ const VideoPlayer = () => {
             frameBorder="0"
             allowFullScreen
             allow="encrypted-media"
+            sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
       )}
