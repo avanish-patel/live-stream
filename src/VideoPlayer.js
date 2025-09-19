@@ -9,6 +9,7 @@ const VideoPlayer = () => {
     'Sky Sports': '//stream.crichd.sc/update/skys2.php',
     'Star Sports': '//stream.crichd.sc/update/star.php',
     'Willow Cricket': '//stream.crichd.sc/update/willowcricket.php',
+    'PTV Sports': '//stream.crichd.sc/update/ptv.php',
   };
 
   useEffect(() => {
