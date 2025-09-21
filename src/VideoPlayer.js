@@ -11,6 +11,7 @@ const VideoPlayer = () => {
     'Willow Cricket': '//stream.crichd.sc/update/willowcricket.php',
     'PTV Sports': '//stream.crichd.sc/update/ptv.php',
     'Sony Ten 3': '//streamcrichd.com/update/sonymax.php',
+    'Sony Ten 1': '//streamcrichd.com/update/ten1.php',
   };
 
   useEffect(() => {
