@@ -63,7 +63,7 @@ const VideoPlayer = () => {
         </div>
       )}
         <footer className="mt-8 text-center text-sm">
-        Made by <a href="#" className='text-blue-500'>Avanish Patel</a>
+        Made by <a href="https://github.com" className='text-blue-500'>Avanish Patel</a>
       </footer>
     </div>
   );
