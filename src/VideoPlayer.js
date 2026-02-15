@@ -5,7 +5,7 @@ const VideoPlayer = () => {
   const [isAndroid, setIsAndroid] = useState(false);
 
   const videoUrls = {
-    'Star Sports Hindi': '//stream.crichd.sc/update/star1hi.php',
+    'Star Sports Hindi': '//streamcrichd.com/update/star1hi.php',
     'Sky Sports': '//stream.crichd.sc/update/skys2.php',
     'Star Sports': '//stream.crichd.sc/update/star.php',
     'Willow Cricket': '//stream.crichd.sc/update/willowcricket.php',
