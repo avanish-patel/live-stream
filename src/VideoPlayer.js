@@ -48,6 +48,7 @@ const VideoPlayer = () => {
       {selectedChannel && (
         <div className="w-full max-w-3xl">
           <iframe
+            title="test"
             src={videoUrls[selectedChannel]}
             width="100%"
             height="500px"
@@ -62,7 +63,7 @@ const VideoPlayer = () => {
         </div>
       )}
         <footer className="mt-8 text-center text-sm">
-        Made by <a className='text-blue-500'>Avanish Patel</a>
+        Made by <a href="#" className='text-blue-500'>Avanish Patel</a>
       </footer>
     </div>
   );
