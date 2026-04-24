@@ -6,10 +6,10 @@ const VideoPlayer = () => {
 
   const videoUrls = {
     'Star Sports Hindi': '//streamcrichd.com/update/star1hi.php',
-    'Sky Sports': '//stream.crichd.sc/update/skys2.php',
-    'Star Sports': '//stream.crichd.sc/update/star.php',
+    'Sky Sports': '//streamcrichd.com/update/skys2.php',
+    'Star Sports': '//streamcrichd.com/update/star.php',
     'Willow Cricket': '//streamcrichd.com/update/willowcricket.php',
-    'PTV Sports': '//stream.crichd.sc/update/ptv.php',
+    'PTV Sports': '//streamcrichd.com/update/ptv.php',
     'Sony Ten 3 Hindi': '//streamcrichd.com/update/sonymax.php',
     'Sony Ten 1': '//streamcrichd.com/update/ten1.php',
   };
